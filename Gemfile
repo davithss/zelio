@@ -10,24 +10,24 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bugsnag', '~> 6.12'
 gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
 gem 'coveralls', '>= 0.8.23', require: false
-gem 'devise', '>= 4.7.1'
+gem 'devise', '>= 4.7.3'
 gem 'jbuilder', github: 'rails/jbuilder', branch: 'master'
 gem 'jquery-rails', '>= 4.4.0'
 gem 'paperclip', '>= 6.1.0'
 gem 'pg'
 gem 'puma', '~> 3.12', '>= 3.12.6'
 gem 'rack', '>= 2.0.8'
-gem 'rails', '>= 6.0.3.4'
+gem 'rails', '>= 6.1.3.2'
 gem 'recaptcha', '>= 5.1.0'
-gem 'rubocop-rails_config', '>= 0.12.1'
-gem 'simple_form', '>= 5.0.2'
-gem 'sprockets-rails', '>= 3.2.1'
+gem 'rubocop-rails_config', '>= 1.1.3'
+gem 'simple_form', '>= 5.0.3'
+gem 'sprockets-rails', '>= 3.2.2'
 gem 'travis', '>= 1.8.10'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
-  gem 'factory_bot_rails', '>= 5.2.0'
+  gem 'factory_bot_rails', '>= 6.1.0'
   gem 'faker'
   gem 'pry-nav'
   gem 'pry-rails'
@@ -40,7 +40,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'web-console', '>= 4.0.2'
+  gem 'web-console', '>= 4.1.0'
 end
 
 group :test do
@@ -49,7 +49,7 @@ group :test do
   gem 'selenium-webdriver', '>= 3.142.3'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'webdrivers', '~> 3.9', '>= 3.9.4'
-  gem 'rails-controller-testing', '>= 1.0.4'
+  gem 'rails-controller-testing', '>= 1.0.5'
   gem 'shoulda-matchers', '>= 4.1.0'
 end
 
