@@ -22,7 +22,7 @@ gem 'recaptcha', '>= 5.1.0'
 gem 'rubocop-rails_config', '>= 0.12.1'
 gem 'simple_form', '>= 5.0.2'
 gem 'sprockets-rails', '>= 3.2.1'
-gem 'travis', '>= 1.8.10'
+gem 'travis', '>= 1.8.12'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 
@@ -45,7 +45,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 3.31.0'
+  gem 'capybara', '>= 3.34.0'
   gem 'selenium-webdriver', '>= 3.142.3'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'webdrivers', '~> 3.9', '>= 3.9.4'
